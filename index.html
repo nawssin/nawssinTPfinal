@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+         <meta charset="UTF-8">
+         <title>Quiz App </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+       <div class="container">
+        <h1>Calculateur d'IMC</h1>
+        <form id="imcForm">
+            <div class="form-group">
+                <label for="height">Taille (en mètres) :</label>
+                <input type="number" id="height" step="0.01" required>
+            </div>
+            <div class="form-group">
+                <label for="weight">Poids (en kg) :</label>
+                <input type="number" id="weight" step="0.1" required>
+            </div>
+            <button type="submit">Calculer l'IMC</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+             <footer> 
+                <p>Droit-réservé</P>
+            </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
